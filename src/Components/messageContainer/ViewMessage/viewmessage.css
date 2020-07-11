@@ -1,0 +1,89 @@
+.message-area{
+    position: relative;
+    bottom: 0;
+    height: 100%;
+}
+
+.message-area .send-message{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.message-area .view-message{
+    height: 82%;
+    overflow-y: overlay;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chatroom-topbar{
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3f51b5;
+}
+
+.chatroom-topbar .bar-image{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chatroom-topbar .bar-room-name{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.msg{
+    border-radius: 4px;
+    margin: 2%;
+    background-color: #2d2d2d;
+    padding: 4px;
+    min-width: 43%;
+    width: auto;
+    max-width: 85%;
+    margin-top: 1px;
+    text-align: start;
+    box-shadow: 1px 1px 7px 0px #00000030;
+}
+
+.my-msg{
+    align-self: flex-end;
+}
+
+.user-msg{
+    align-self: flex-start;
+    background-color: #131313;
+}
+
+.join-chatroom-image{
+    height : 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3e3e3e;
+}
+
+.join-chatroom-name{
+    color : #c3c3c3;
+    font-size: 1.2rem;
+}
+
+.join-chatroom-moto{
+    color: #c3c3c3;
+    font-size: 1.1rem;
+}

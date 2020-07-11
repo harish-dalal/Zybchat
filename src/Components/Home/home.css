@@ -1,0 +1,49 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    height: 93vh;
+    justify-content: center;
+}
+
+.left-bar-chatrooms{
+    height: 100%;
+    width: 20vw;
+    border-right:2px solid grey;
+    margin-top: 20px;
+}
+
+.main-right-message-container{
+    width: 80vw;
+    text-align: center;
+}   
+
+
+@media only screen  and (max-width: 450px){
+    .home-container{
+        flex-direction: column;
+
+    }
+    .left-bar-chatrooms{
+        width: 100%;
+        height: max-content;
+        max-height: 10%;
+        border: none;
+        border-bottom: 2px solid grey;
+        margin-top: 0;
+    }
+    .main-right-message-container{
+        width: 100%;
+        height: 90%;
+    }
+}
+
+
+@media only screen  and (max-width: 720px) and (min-width: 450px){
+    
+    .left-bar-chatrooms{
+        width : 80px;
+    }
+    .main-right-message-container{
+        width: 80vw;
+    }
+}
